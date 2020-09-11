@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <style>
+        body {
+            font-family: 'Google Sans';
+            font-size: 14px;
+            /* font-family: myf; */
+            line-height: 32px;
+            color: #777777;
+        }
+        ul {
+            list-style: none;
+            list-style-type: disc;
+        }
+
+        li {
+            list-style: none;
+        }
+
+                .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        background-color: #f9f9f9;
+        padding: 10px;
+        /* font-family: myf; */
+        }
+        .grid-container > div {
+        background-color: #f9f9f9;
+        padding: 20px;
+        }
+
+        .grid-item1 {
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .grid-item2 {
+            grid-column-start: 5;
+            grid-column-end: 6;
+        }
+        .grid-item3 {
+            grid-column-start: 6;
+            grid-column-end: 10;
+        }
+
+        @font-face {
+            font-family: "myf";
+            src: url("themify.woff") format("woff");
+        }
+
+        .icon {
+            font-size: 20px;
+            padding-right: 45px;
+            }
+
+        .firstIconSet {
+
+            
+        }
+        
+        a {
+            text-decoration: none;
+            color: #777777;
+        }
+    </style>
+    <!-- &nbsp; space -->
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div class="grid-item1">
+            <ul>
+                <img src="https://fumedesign.com.tr/images/fume_design_logo.png" alt="" width="110">
+ 
+                <p>Hayatin siyah ve beyazdan ibaret olmadigini biliyoruz
+                    <br>
+                    Ama her ikisi de hayatimizin icinde.
+                    <br>
+                    Ne siyahi reddediyor, ne beyaza sirtimizi donuyoruz
+                    <br>
+                    O yuzden tercihimiz FUME
+                    <br>
+                </p>
+                <li class="firstIconSet">
+                    <ion-icon class="icon" name="logo-facebook"></ion-icon>&nbsp;
+                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                </li>
+                <!-- <p>
+                    <ion-icon name="skull-outline" style="font-size: 20px;"></ion-icon>
+                    2020 Fume Design
+                </p> -->
+            </ul>
+        </div>
+
+        <div class="grid-item2">
+            <ul>
+                <h3 style="color: #222222;">Yardim</h3>
+                <li><a href="#"> Mesafeli sozlesmeler</a></li>
+                <li><a href="#">Kullanim & Uyelik Sozlesmesi</a></li>
+                <li><a href="#">KKVK Aydinlatma Metni</a></li>
+                <li><a href="#">On Bilgilendirme Formu</a></li>
+                <li><a href="#">Cerez Politikasi</a></li>
+            </ul>
+        </div>
+
+        <div  class="grid-item3">
+            <ul >
+                <h3 style="color: #222222;">Magaza Hakkinda</h3>
+                <li>
+                    <ion-icon name="location-outline"></ion-icon>&nbsp;
+                <span> Ikitelli Organize anayi Bolgesi Demirciler Sanayi Sitesi,</span> <br>
+                <span> B2 Blok No 63 Basaksehir, Istanbul</span>
+                </li>
+                <li>
+                    <ion-icon name="mail-outline"></ion-icon> &nbsp;&nbsp;<span> E-Mail: destek@fumedesign.com.tr</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="item2">
+
+    </div>
+    <div class="item3">
+
+    </div>
+</body>
+</html>
